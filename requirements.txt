@@ -59,8 +59,10 @@ dataclasses; python_version < '3.7'
 backports-datetime-fromisoformat==1.0.0; python_version < '3.7'
 
 # addtional requirements for eggroll
-grpcio==1.24.3
-grpcio-tools==1.24.3
+grpcio; python_version == '3.6'
+grpcio-tools; python_version == '3.6'
+grpcio==1.24.3; python_version > '3.6'
+grpcio-tools==1.24.3; python_version > '3.6'
 numba==0.50.0
 llvmlite==0.33.0
 phe>=1.4.0
