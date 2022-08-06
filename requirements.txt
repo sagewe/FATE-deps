@@ -10,7 +10,7 @@ casbin-sqlalchemy-adapter==0.4.2
 cloudpickle==0.6.1
 cos-python-sdk-v5==1.9.10
 Flask==1.0.2
-gmpy2==2.0.8
+gmpy2==2.1.2
 joblib==1.0.1
 kazoo==2.6.1
 pyyaml==5.4.1
